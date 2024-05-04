@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import "./signup.css"
 import Image from "next/image";
-import { ZodType, object, z } from "zod"
+import { ZodType, z } from "zod"
 import googlei from "../Assets/google.png"
 import axios from "axios"
 import { INewUser } from "../types/app.types";
