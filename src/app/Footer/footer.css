@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background: #111;
+    padding: 50px;
+}
+.footer .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+.footer .box .buttons {
+    display: flex;
+    gap: 10px;
+}
+.footer img {
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+}
+.footer h1 {
+    font-size: 1.2em;
+    color: #fff;
+}
+.footer p {
+    color: rgb(177, 177, 177);
+}
+.footer .text {
+    width: 600px;
+}

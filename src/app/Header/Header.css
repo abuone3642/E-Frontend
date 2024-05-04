@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    gap: 320px;
+    padding: 25px 30px;
+    align-items: center;
+    background: rgb(244, 244, 244);
+}
+header p {
+    font-size: 2em;
+}
+header .input {
+    display: flex;
+}
+header .input input{
+    width: 450px;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+header .input button {
+    width: 70px;
+    background: #111;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+header .icons {
+    display: flex;
+    gap: 15px;
+}
+header .img {
+    width: 30px;
+    height: 30px;
+} 

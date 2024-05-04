@@ -1,0 +1,19 @@
+.succes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin: 200px 0px;
+}
+.succes h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    color: rgb(192, 255, 129);
+}
+.succes p {
+    background: #111;
+    color: #fff;
+    padding: 15px 0px;
+    margin: 0px 500px;
+    border-radius: 5px;
+}

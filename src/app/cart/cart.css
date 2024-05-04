@@ -1,0 +1,35 @@
+.cart {
+    padding: 50px 0px;
+    text-align: center;
+}
+.cart .title p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+.cart .checkout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cart .checkout p {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.cart .checkout li {
+    cursor: pointer;
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 20px 500px;
+    padding: 10px 120px;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+.cart .item {
+    justify-content: center;
+}
+.cart .empty h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    padding: 90px 0px;
+}

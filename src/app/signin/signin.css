@@ -1,0 +1,69 @@
+.signInForm {
+    padding: 30px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.signInForm .title {
+    font-size: 2.3em;
+    font-weight: 200;
+}
+.signInForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 0px 5px 10px gainsboro;
+    border-radius: 15px;
+}
+.signInForm form input {
+    width: 500px;
+    padding: 15px 15px;
+    font-size: 13px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+}
+.signInForm form input[type=submit] {
+    background-color: #111;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.signInForm form .title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.signInForm form ul {
+    display: flex;
+    align-items: center;
+    padding: 13px 104px;
+    gap: 10px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signInForm form ul li {
+    font-size: 16px;
+    font-weight: 500;
+}
+.signInForm form .navigate {
+    display: flex;
+    gap: 10px;
+}
+.signInForm form .navigate li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signInForm ul .img {
+    width: 20px;
+    height: 20px;
+}
+span {
+    color: red;
+}
+
+

@@ -1,0 +1,7 @@
+.loading {
+    text-align: center;
+    padding: 40px;
+    margin: 150px 350px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 10px gainsboro;
+}

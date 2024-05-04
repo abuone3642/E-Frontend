@@ -1,0 +1,57 @@
+.checkout {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.checkout form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 0px 5px 10px gainsboro;
+    border-radius: 15px;
+}
+.checkout form label {
+    font-weight: 600;
+}
+.checkout form input {
+    width: 500px;
+    padding: 15px 15px;
+    font-size: 13px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+}
+.checkout form select {
+    width: 500px;
+    padding: 15px 15px;
+    font-size: 13px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+}
+.checkout form input[type=submit] {
+    background-color: #111;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.checkout form .title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.checkout form ul {
+    display: flex;
+    align-items: center;
+    padding: 13px 104px;
+    gap: 10px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

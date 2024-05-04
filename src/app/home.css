@@ -1,0 +1,68 @@
+.home ul {
+    padding: 40px 0px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+.home ul li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #111;
+}
+.home ul .img {
+    width: 15px;
+    height: 15px;
+}
+.home .products {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.home .products .product {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #bde3ff;
+    border-radius: 25px;
+    margin: 20px;
+}
+.home .products .product .square {
+    width: 250px;
+    height: 1px;
+    background: rgb(137, 137, 137);
+}
+.home .products .product .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home .products .product .text p {
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.home .products .product .text h4 {
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+.home .products .product .text .view {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 2px 10px;
+    border-radius: 15px;
+    background-color: #111;
+}
+.home .products .product .text .view p {
+    color: #fff;
+    font-weight: 300;
+}
+.home .products .product .text .img {
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+}

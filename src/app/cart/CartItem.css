@@ -1,0 +1,61 @@
+.cartItem {
+    display: flex;  
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 200px;
+}
+.cartItem .column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cartItem .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.cartItem .square {
+    width: 1400px;
+    height: 1px;
+    background-color: rgb(137, 137, 137);
+}
+.cartItem .column .box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cartItem .column1 .box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cartItem .column1 h3 {
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(137, 137, 137);
+}
+.cartItem .column h3 {
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(137, 137, 137);
+}
+.cartItem .column .box span {
+    padding: 5px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.cartItem .column1 .box img {
+    width: 160px;
+    height: 180px;
+}
+.cartItem .trash img {
+    width: 20px;
+    height: 20px;
+    margin-top: 125px;
+}
+.cartItem .trash button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
