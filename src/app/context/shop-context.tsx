@@ -10,8 +10,9 @@ export function ShoppingCartProvider(props: any) {
     const [cartItems, setCartItem] = useState<ICartItemsProps[]>([])
     const [products, setProducts] = useState<IProduct[]>([])
     const [product, setProduct] = useState<IProduct>()
-    const [user, setUser] = useState<INewUser>()
+    const [userState, setUserState] = useState<INewUser>()
     const [reviews, setReviews] = useState<IReview[]>([])
+    const user: INewUser = userState as INewUser
 
     const cartQuantity = cartItems.reduce(
         (quantity, item) => item.quantity + quantity,
@@ -20,8 +21,8 @@ export function ShoppingCartProvider(props: any) {
 
     const getUser = useMemo(() => () => {
       const userString = window.localStorage.getItem("user") 
-      const user = JSON.parse(String(userString))
-      setUser(user)
+      const user: INewUser = JSON.parse(String(userString))
+      setUserState(user)
     }, [])
     useEffect(() => {
         getUser()
