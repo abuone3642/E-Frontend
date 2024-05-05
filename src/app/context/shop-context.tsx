@@ -1,6 +1,6 @@
 'use client'
 import React, { createContext, useState, useContext, use, useMemo, useEffect } from "react";
-import { ICartItemsProps, INewUser, IProduct, IReview, ShoppingCartContext } from "../types/app.types";
+import { ICartItemsProps, INewUser, IProduct, IReview, IUserStrig, ShoppingCartContext } from "../types/app.types";
 import { CarService } from "../service/shop.service";
 import { useParams } from "next/navigation";
 
@@ -20,7 +20,7 @@ export function ShoppingCartProvider(props: any) {
 
     const getUser = useMemo(() => () => {
       const userString = window.localStorage.getItem("user") 
-      const user = JSON.parse(userString) 
+      const user = JSON.parse(String(userString))
       setUser(user)
     }, [])
     useEffect(() => {

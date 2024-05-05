@@ -1,4 +1,6 @@
-
+export interface IUserStrig {
+  userString: string
+}
 export interface INewUser {
   name: string
   email: string
