@@ -8,7 +8,11 @@ import { ShopContext } from "../context/shop-context"
 import { useParams } from "next/navigation"
 import { IReview } from "../types/app.types"
 
-const Review: FC<IReview> = ({ productId }) => {
+interface productId {
+    productId: number
+}
+
+const Review: FC<productId> = ({ productId }) => {
     const [review, setReview] = useState("")
     const { user, reviews } = useContext(ShopContext)
     const userName = user.name 
